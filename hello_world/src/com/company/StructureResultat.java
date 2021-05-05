@@ -28,7 +28,7 @@ public class StructureResultat {
 
     public StructureResultat(int id, String nomPrenom, String noteMath1, String noteMath2, String noteFrancais1,
                              String noteFrancais2, String noteHistoire1, String noteHistoire2) {
-        DecimalFormat df = new DecimalFormat("#.##");
+        DecimalFormat df = new DecimalFormat("#.###");
         this.id = id;
         this.nomPrenom = nomPrenom;
         this.noteMath1 = df.format(Double.parseDouble(noteMath1));
